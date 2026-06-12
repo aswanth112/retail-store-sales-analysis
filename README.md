@@ -1,94 +1,4 @@
-# \# Retail Store Sales Analysis
-
-# \## Infotact Solutions Internship Project
-
-# \### Author: Aswanth Chandran
-
-# 
-
-# \## Project Overview
-
-# Analysis of Walmart Retail Store Sales dataset covering 45 stores,
-
-# 81 departments and 3 years of weekly sales data (421,570 records).
-
-# 
-
-# \## Dataset
-
-# \- Source: Kaggle - Walmart Retail Store Sales
-
-# \- Files: Features data set.csv, sales data-set.csv, stores data-set.csv
-
-# \- Total Records: 421,570 rows
-
-# 
-
-# \## Project Structure
-
-# \- data/raw - Original dataset files
-
-# \- data/cleaned - Cleaned and processed datasets
-
-# \- aswanth\_retail\_analysis.ipynb - EDA and visualizations
-
-# \- aswanth\_sql\_analysis.ipynb - SQL analysis with outputs
-
-# \- aswanth\_sql\_queries.sql - All 6 SQL queries
-
-# 
-
-# \## Key Findings
-
-# \- Total Revenue: $6.7 Billion
-
-# \- Top Store: Store 20 with $301M revenue
-
-# \- Top Department: Department 92 with $483M revenue
-
-# \- Holiday Impact: 7.1% higher sales during holidays
-
-# \- Best Month: December consistently highest at $288M
-
-# \- Store Type A generates 64% of total revenue
-
-# 
-
-# \## Technologies Used
-
-# \- Python (Pandas, NumPy, Matplotlib, Seaborn)
-
-# \- MySQL (SQLAlchemy, PyMySQL)
-
-# \- Jupyter Notebook
-
-# \- Git and GitHub
-
-# 
-
-# \## Week 1 - Data Cleaning
-
-# \- Loaded 3 datasets
-
-# \- Handled missing values
-
-# \- Fixed date formats
-
-# \- Merged into master dataframe
-
-# \- Created 7 visualizations
-
-# 
-
-# \## Week 2 - SQL Analysis
-
-# \- Created MySQL database
-
-# \- Imported 3 tables
-
-# \- Wrote 6 SQL queries
-
-# \- Analyzed revenue, stores, departments, holidaysRetail Store Sales Analysis
+# Retail Store Sales Analysis
 
 # 
 
@@ -104,7 +14,7 @@
 
 # 
 
-# Analysis of Walmart Retail Store Sales dataset covering 45 stores, 81 departments and 3 years of weekly sales data (421,570 records). This project follows an end-to-end data analytics pipeline from cleaning to business intelligence reporting.
+# This project involves a comprehensive analysis of the Walmart Retail Store Sales dataset, covering 45 stores, 81 departments, and 3 years of weekly sales data (totaling 421,570 records). The analysis follows a complete end-to-end data analytics pipeline, starting from data cleaning and exploratory analysis in Python, moving to structured querying in SQL, and concluding with professional business intelligence reporting in Power BI.
 
 # 
 
@@ -112,7 +22,7 @@
 
 # 
 
-# Once you upload your images to a folder named screenshots, they will appear here!
+# Note: Ensure you have uploaded your screenshots to a folder named screenshots in your repository for these to display correctly.
 
 # 
 
@@ -120,49 +30,9 @@
 
 # 
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
 # Page 2: Store Manager Analysis
 
-# 
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
 
 # Page 3: Inventory Planner Analysis
 
@@ -170,25 +40,7 @@
 
 # 
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# Dataset
+# Dataset Details
 
 # 
 
@@ -200,7 +52,29 @@
 
 # •
 
-# Files: Features data set.csv, sales data-set.csv, stores data-set.csv
+# Files Included:
+
+# 
+
+# •
+
+# Features data set.csv (External factors like Temperature, Fuel Price, CPI)
+
+# 
+
+# •
+
+# sales data-set.csv (Weekly sales records by Store and Dept)
+
+# 
+
+# •
+
+# stores data-set.csv (Store metadata including Type and Size)
+
+# 
+
+# 
 
 # 
 
@@ -216,43 +90,43 @@
 
 # •
 
-# data/raw - Original dataset files
+# data/raw/ - Original dataset files.
 
 # 
 
 # •
 
-# data/cleaned - Cleaned and processed datasets
+# data/cleaned/ - Processed datasets after Python cleaning.
 
 # 
 
 # •
 
-# screenshots/ - Dashboard images
+# screenshots/ - Visual assets and dashboard captures.
 
 # 
 
 # •
 
-# aswanth\_retail\_analysis.ipynb - EDA and visualizations
+# aswanth\_retail\_analysis.ipynb - Python-based EDA and visualizations.
 
 # 
 
 # •
 
-# aswanth\_sql\_analysis.ipynb - SQL analysis with outputs
+# aswanth\_sql\_analysis.ipynb - SQL integration and analytical outputs.
 
 # 
 
 # •
 
-# aswanth\_sql\_queries.sql - All 6 SQL queries
+# aswanth\_sql\_queries.sql - Collection of all 6 core SQL queries.
 
 # 
 
 # •
 
-# Retail\_Sales\_Dashboard\_Aswanth.pbix - Final Power BI Dashboard
+# Retail\_Sales\_Dashboard\_Aswanth.pbix - Final interactive Power BI Dashboard.
 
 # 
 
@@ -260,41 +134,43 @@
 
 # 
 
-# •
+# Metric
 
-# Total Revenue: $6.7 Billion across 3 years.
+# Finding
 
-# 
+# Total Revenue
 
-# •
+# $6.7 Billion over the 3-year period.
 
-# Top Performer: Store 20 (301M)andDepartment92(301M) and Department 92 (
+# Top Performer
 
-# 301M)andDepartment92(
+# Store 20 (301M)and∗∗Department92∗∗(301M) and \*\*Department 92\*\* (
+
+# 301M)and∗∗Department92∗∗(
 
 # 483M).
 
-# 
+# Holiday Impact
 
-# •
+# Sales surge by 7.1% during holiday weeks.
 
-# Holiday Impact: Sales are 7.1% higher during holiday weeks.
+# Seasonal Peaks
 
-# 
+# December is the peak month (288M),while∗∗January∗∗istheslowest(288M), while \*\*January\*\* is the slowest (
 
-# •
-
-# Seasonal Trends: December is consistently the peak month (288M),whileJanuaryistheslowest(288M), while January is the slowest (
-
-# 288M),whileJanuaryistheslowest(
+# 288M),while∗∗January∗∗istheslowest(
 
 # 163M).
 
+# Store Efficiency
+
+# Type A stores generate 64% of total revenue, validating the larger store format.
+
 # 
 
-# •
+# 
 
-# Store Type Efficiency: Type A stores generate 64% of total revenue, proving the success of larger store formats.
+# 
 
 # 
 
@@ -322,7 +198,7 @@
 
 # •
 
-# Environment: Jupyter Notebook, Git/GitHub
+# Version Control: Git and GitHub
 
 # 
 
@@ -336,109 +212,109 @@
 
 # 
 
-# Week 1: Data Cleaning \& EDA ✅
+# Week 1: Data Cleaning \& EDA 
 
 # 
 
 # •
 
-# Loaded and inspected 3 raw datasets.
+# Inspected raw datasets and handled missing values (filled MarkDowns with 0 and CPI/Unemployment with medians).
 
 # 
 
 # •
 
-# Handled missing values (MarkDowns filled with 0, CPI/Unemployment filled with median).
+# Standardized date formats and performed feature engineering to extract Year, Month, and Week attributes.
 
 # 
 
 # •
 
-# Fixed date formats and performed feature engineering (extracted Year, Month, Week).
+# Merged disparate files into a unified master dataframe for holistic analysis.
 
 # 
 
 # •
 
-# Merged all files into a single master dataframe.
+# Generated 7 core visualizations to identify initial trends.
+
+# 
+
+# Week 2: SQL Database \& Aggregations 
 
 # 
 
 # •
 
-# Created 7 core visualizations in Python.
-
-# 
-
-# Week 2: SQL Database \& Aggregations ✅
+# Established a MySQL database environment and imported the cleaned datasets.
 
 # 
 
 # •
 
-# Established a MySQL database connection via SQLAlchemy.
+# Developed 6 complex SQL queries to calculate KPIs and perform comparative analysis.
 
 # 
 
 # •
 
-# Wrote complex SQL queries to extract KPIs and comparative metrics.
+# Validated Python-based findings through structured SQL aggregations.
 
 # 
 
 # •
 
-# Validated Python findings using SQL aggregations.
+# Analyzed revenue distribution across various store types and holiday periods.
+
+# 
+
+# Week 3: Power BI Dashboard Development 
 
 # 
 
 # •
 
-# Analyzed revenue distribution across stores, types, and holiday periods.
-
-# 
-
-# Week 3: Power BI Dashboard Development ✅
+# Built a 3-page interactive dashboard utilizing a professional dark-themed design.
 
 # 
 
 # •
 
-# Developed a 3-page interactive dashboard with a professional dark theme.
+# Sales Overview: Focuses on executive KPIs and macroscopic store performance.
 
 # 
 
 # •
 
-# Sales Overview: Executive KPIs and macroscopic store-type analysis.
+# Store Manager Analysis: Utilizes heatmaps and departmental tracking for operational insights.
 
 # 
 
 # •
 
-# Store Manager Analysis: Heatmaps and department-level performance tracking.
+# Inventory Planner Analysis: Features YoY trend comparisons and external factor (Temperature) impact studies.
 
 # 
 
 # •
 
-# Inventory Planner Analysis: YoY trend comparisons and external feature (Temperature) impact studies.
+# Implemented dynamic slicers for Year, Store Type, and Quarter to enable user-driven exploration.
+
+# 
+
+# Week 4: Final Reporting \& Submission 
 
 # 
 
 # •
 
-# Implemented slicers for dynamic filtering by Year, Type, and Quarter.
-
-# 
-
-# Week 4: Final Reporting \& Submission ⏳
+# Finalizing project documentation and preparing for the final review session.
 
 # 
 
 # •
 
-# Finalizing documentation and preparing for the final project review.
+# Documenting key recommendations for retail stakeholders based on data-driven insights.
 
 # 
 
